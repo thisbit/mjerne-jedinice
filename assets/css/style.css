@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Roboto, Arial, sans-serif;
 }
 
@@ -19,7 +19,7 @@ blockquote {
 	padding-left: 0;
 }
 
-/* .content-width {
+ .content-width {
 	width: 50%;
 }
 
@@ -31,4 +31,33 @@ blockquote {
 body > * {
 	margin: auto;
 	margin-bottom: 1.5rem;
-} */
+}
+
+/* 
+Tipografija
+*/
+
+body {
+  line-height: 1.5;
+  background-color: cadetblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+blockquote {
+  font-size: 2rem;
+  background-color: rgba(255, 68, 0, 0.5);
+  color: beige;
+  padding: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #9e4512;
+}
+
+a:hover {
+  color: #ff3c00;
+}
